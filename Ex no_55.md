@@ -1,26 +1,51 @@
 # EX 55 C program to find a square of number using function with arguments without return type.
-## DATE:
+## DATE: 26/03/2026
 ## AIM:
 To write a C program to find a square of number using function with arguments without return type.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1.Define a function square() that takes an integer as an argument.
+
+2.Inside the function, calculate the square of the number by multiplying it by itself.
+
+3.Print the square of the number inside the function.
+
+4.Call the square() function from main(), passing the number as an argument.
+
+5.Ensure that there is no return value (void return type).
+
+ 
 
 ## Program:
 ```
 /*
 C program to find a square of number using function with arguments without return type.
-Developed by: 
-RegisterNumber:  
+Developed by: Ragupathi Raj M
+RegisterNumber: 212222060185
 */
+#include <stdio.h>
+
+void square(int num)
+{
+    printf("Square of %d is %d\n", num, num * num);
+}
+
+int main()
+{
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    square(num);
+
+    return 0;
+}
 ```
 
 ## Output:
 
+![image](https://github.com/user-attachments/assets/54a9d34b-4d75-4a6f-9d7e-8f20fefa6e9d)
 
 
 ## Result:
